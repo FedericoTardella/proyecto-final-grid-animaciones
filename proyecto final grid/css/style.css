@@ -1,0 +1,614 @@
+@media(max-width:576px){
+    *{
+        margin: 0px;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    header{
+        position: sticky;
+        top: 0px;  
+        width: 100%;
+    }
+    nav{
+        width: 100%;
+
+    }
+    main{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .contenedor{
+        justify-content: center;
+    }
+    
+    footer{
+        width: 100%;
+        padding: 5px;
+        position: fixed;
+    }
+    footer ul li{
+        text-align: center;
+        padding: 0;
+        
+    }
+    .contenedor{
+        justify-content: center;
+    }
+    .caja{
+        width: 100%;
+    }
+    .contenedorf{
+        justify-content: center;
+    }
+    h1{
+        font-size: 60px;
+        margin: 20px;
+        margin-left: 0;
+    }
+    
+    /*Inicio*/
+    .inicio{
+        padding: 20px;
+        width: 100%;
+    }
+    .parrafo{
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 5px;
+    }
+    .hijo{
+        text-align: initial;
+    }
+    .hijo2{
+        text-align: center;
+    }
+    .messiImagen{
+        width: 100px;
+    }
+    
+
+    /*Titulos*/
+    .mainT{
+        margin: 0px;
+        padding: 20px;
+        width: 100%;
+        display: inline-block;
+    }
+    .messititulos{
+        position:relative;
+        left: 50px;
+        bottom: 0;
+        margin: 20px;
+        margin-bottom: 100px;
+        max-width: 400px;
+        border: #071433 solid;
+        border-radius: 10px;
+        border-width: 4px;
+    }
+
+    /*Records*/
+    .mainR{
+        margin: 0;
+        padding: 20px;
+        width: 100%;
+        display: inline-block;
+    }
+    h1{
+        font-size: 56px;
+    }
+    p{
+        margin-top: 40px;
+    }
+    .listaT li{
+        margin-top: 10px;
+    }
+    .footerR{
+        position: sticky;
+    }
+
+    /*Galeria*/
+    .mainG{
+        margin: 0px;
+        padding: 20px;
+        width: 100%;
+        display: inline-block; 
+    }
+    .galeria{
+        display: inline-block;
+    }
+    .contenedorImg{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .primera{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .segunda{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedorImg img{
+        height: auto;
+        width: auto;
+        max-height: 400px;
+        max-width: 400px;
+        margin: 10px;
+        margin-inline: 40px;
+        padding: 5px;
+        background-color: #040C1F;
+        border-radius: 30px;
+    }
+    .videos{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .vid{
+        margin-left: 350px;
+        margin-top: 50px;
+    }
+    
+    /*Contacto*/
+    .mainC{
+        margin: 0;
+        padding: 20px;
+        width: 100%;
+        display: inline-block; 
+    }
+    input{
+        margin: 0px;
+        margin-top: 20px;
+    }
+    .inputlargo{
+        width: 100%;
+    }
+    .messiBeso{
+        position: relative;
+        width: 100%;
+        max-width: 400px;
+        max-height: 400px;
+        margin: 0;
+        
+    }
+}   
+
+@media(max-width:768px){
+    *{
+        margin: 0px;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    header{
+        position: sticky;
+        top: 0px;  
+        width: 100%;
+    }
+    nav{
+        width: 100%;
+
+    }
+    main{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .contenedor{
+        justify-content: center;
+    }
+    
+    footer{
+        width: 100%;
+        padding: 5px;
+        position: fixed;
+    }
+    footer ul li{
+        text-align: center;
+        padding: 0;
+        
+    }
+    .contenedor{
+        justify-content: center;
+    }
+    .caja{
+        width: 100%;
+    }
+    .contenedorf{
+        justify-content: center;
+    }
+    h1{
+        font-size: 60px;
+        margin: 20px;
+        margin-left: 0;
+    }
+    
+    /*Inicio*/
+    .inicio{
+        margin: 0;
+        padding: 20px;
+        width: 100%;
+        display: inline-block;
+    }
+    .parrafo1{
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 20px;
+    }
+    .parrafo{
+        font-size: 30px;
+        margin-top: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .parrafoultimo{
+        font-size: 30px;
+        margin-top: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 0px;
+    }
+    .messiImagen{
+        position: relative;
+        left: 200px;
+        top: 20px;
+        bottom: 0px;
+        max-width: 300px;
+    }
+
+    /*Titulos*/
+    .mainT{
+        margin: 0px;
+        padding: 20px;
+        width: 100%;
+        display: inline-block;
+    }
+    .messititulos{
+        position:relative;
+        left: 150px;
+        bottom: 0;
+        margin: 20px;
+        margin-bottom: 50px;
+        max-width: 400px;
+        border: #071433 solid;
+        border-radius: 10px;
+        border-width: 4px;
+    }
+
+    /*Records*/
+    .mainR{
+        margin: 0;
+        padding: 20px;
+        width: 100%;
+        display: inline-block;
+    }
+    h1{
+        font-size: 56px;
+    }
+    p{
+        margin-top: 40px;
+    }
+    .listaT li{
+        margin-top: 10px;
+    }
+    .footerR{
+        position: sticky;
+    }
+
+    /*Galeria*/
+    .mainG{
+        margin: 0px;
+        padding: 20px;
+        width: 100%;
+        display: inline-block; 
+    }
+    .galeria{
+        display: inline-block;
+    }
+    .contenedorImg{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .primera{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .segunda{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedorImg img{
+        height: auto;
+        width: auto;
+        max-height: 400px;
+        max-width: 400px;
+        margin: 10px;
+        margin-inline: 40px;
+        padding: 5px;
+        background-color: #040C1F;
+        border-radius: 30px;
+    }
+    .videos{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .vid{
+        margin-left: 350px;
+        margin-top: 50px;
+    }
+    
+    /*Contacto*/
+    .mainC{
+        margin: 0;
+        padding: 20px;
+        width: 100%;
+        display: inline-block; 
+    }
+    input{
+        margin: 0px;
+        margin-top: 20px;
+    }
+    .inputlargo{
+        width: 100%;
+    }
+    .messiBeso{
+        position: relative;
+        width: 100%;
+        max-width: 400px;
+        max-height: 400px;
+        margin: 0;
+        left: 150px;
+        top: 50px;
+    }
+}   
+
+
+
+/*General*/
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #071433;
+    position: sticky;
+    top: 0px;
+}
+
+nav{
+    background-color: #071433;
+    color: white;
+    padding: 20px;
+    position: sticky;
+    top: 0px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 100%;
+    margin: 0px;
+}
+.caja{
+    margin-inline: 10px;
+    width: 90px;
+    padding: 10px;
+    background-color: #040C1F;
+    border-radius: 10px;
+}
+body{
+    background-color: #0E2966;
+    color: white;
+}
+
+footer{
+    background-color: #071433;
+    color: white;
+    padding: 10px;
+    position: sticky;
+}
+.contenedorf{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin: 0px;
+}
+.cajaf{
+    margin: 5px;
+    width: 100%;
+}
+
+footer ul{
+    width: 30%;
+    margin: 0;
+    display: inline-block;
+}
+footer ul li{
+    display: inline-block;
+    padding: 10px;
+}
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+footer p{
+    display: inline-block;
+}
+a{
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+}
+h1{
+    font-size: 75px;
+    margin: 20px;
+    margin-left: 0;
+    animation:tracking-in-expand 1s cubic-bezier(.215,.61,.355,1.000) both
+}
+
+
+/*Inicio*/
+.inicio{
+    padding: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.parrafo{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+.hijo{
+    text-align: initial;
+}
+.hijo2{
+    text-align: center;
+}
+.messiImagen{
+    width: 375px;
+    animation:text-focus-in 1s cubic-bezier(.55,.085,.68,.53) both
+}
+
+
+/*Titulos*/
+.mainT{
+    padding: 13px;
+    padding-left: 20px;
+}
+.padre{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+.hijo2{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.parrafoT{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+.messititulos{
+    max-width: 400px;
+    border: #071433 solid;
+    border-radius: 10px;
+    border-width: 4px;
+    animation:text-focus-in 1s cubic-bezier(.55,.085,.68,.53) both
+}
+.listaT{
+    margin-left: 30px;
+    font-size: 27px;
+    margin-top: 5px;
+}
+
+
+/*Records*/
+.mainR{
+    margin: 20px;
+    width: 97%;
+    display: inline-block;
+}
+.listaT li{
+    margin-top: 10px;
+}
+.footerR{
+    position: sticky;
+}
+
+/*Galeria*/
+.mainG{
+    margin: 20px;
+    width: 96%;
+    display: inline-block; 
+}
+.galeria{
+    display: inline-block;
+}
+.contenedorImg{
+    flex-wrap: wrap;
+    width: 100%;
+}
+.primera{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.segunda{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorImg img{
+    height: auto;
+    width: auto;
+    max-height: 400px;
+    max-width: 400px;
+    margin: 10px;
+    margin-inline: 40px;
+    padding: 5px;
+    background-color: #040C1F;
+    border-radius: 30px;
+}
+.videos{
+    flex-wrap: wrap;
+    width: 100%;
+}
+.vid{
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+/*Contacto*/
+.mainC{
+    padding: 20px;
+    margin-bottom: 4px;
+    width: 100%;
+    display: inline-block; 
+}
+.parrafo3T{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+input{
+    padding: 3px;
+    margin-top: 20px;
+}
+.messiBeso{
+    width: 100%;
+    max-width: 700px;
+    max-height: 700px;
+    margin: 44px;
+    margin-left: 600px;
+    padding: 5px;
+    background-color: #040C1F;
+    border-radius: 30px;
+}
+
+{animation:tracking-in-expand 1s cubic-bezier(.215,.61,.355,1.000) both}
+ @keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+
+{animation:text-focus-in 1s cubic-bezier(.55,.085,.68,.53) both}
+ @keyframes text-focus-in{0%{filter:blur(12px);opacity:0}100%{filter:blur(0);opacity:1}}
